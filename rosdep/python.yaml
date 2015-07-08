@@ -449,6 +449,19 @@ python-fysom:
   ubuntu:
     pip:
       packages: [fysom]
+python-gevent:
+  debian:
+    pip:
+      packages: [greenlet,gevent]
+  fedora:
+    pip:
+      packages: [greenlet,gevent]
+  osx:
+    pip:
+      packages: [greenlet,gevent]
+  ubuntu:
+    pip:
+      packages: [greenlet,gevent]
 python-gridfs:
   debian: [python-gridfs]
   fedora: [python-pymongo-gridfs]
